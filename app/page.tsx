@@ -1,7 +1,4 @@
-const Demo = () => {
-  return <div>page</div>;
-};
-
+import Atf from '@/components/home/atf';
 export default function Home() {
-  return <Demo />;
+  return <Atf />;
 }

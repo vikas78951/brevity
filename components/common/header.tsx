@@ -11,8 +11,10 @@ import FixedHeader from '@/components/provider/scroll-header';
 
 const Header = () => {
   return (
-    <header className={`${true && 'fixed top-2 left-0 z-50 w-full'}`}>
-      <Wrapper className={`p-3`}>
+    <header
+      className={`${true && 'fixed top-0 left-0 z-50 w-full'} bg-background`}
+    >
+      <Wrapper className={`p-2`}>
         <FixedHeader className={`flex justify-between rounded-full p-3`}>
           <Logo />
           <DesktopNav />
