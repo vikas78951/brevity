@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
+import { Skeleton } from '@/components/ui/skeleton';
 
 export default function ToggleTheme() {
   const { theme, setTheme } = useTheme();
@@ -13,7 +14,7 @@ export default function ToggleTheme() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null;
+  if (!mounted) return <Skeleton className='h-8 w-8' />;
 
   return (
     <Button
