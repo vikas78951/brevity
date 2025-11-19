@@ -8,7 +8,7 @@ interface WrapperProps {
 
 export default function Wrapper({ children, className }: WrapperProps) {
   return (
-    <div className={cn('w-full max-w-[1440px] px-4', className)}>
+    <div className={cn('mx-auto w-full max-w-[1440px] px-4', className)}>
       {children}
     </div>
   );
