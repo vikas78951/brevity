@@ -2,7 +2,7 @@
 
 A project for voice synthesis
 
-## Quick Links
+### Quick Links
 
-- **Deployed on**:[https://brevity-chi.vercel.app](https://brevity-chi.vercel.app)
-- **Design Ref**:[https://awake-agency-next-js.vercel.app](https://awake-agency-next-js.vercel.app)
+- **Deployed on**: [https://brevity-chi.vercel.app](https://brevity-chi.vercel.app)
+- **Design Ref**: [https://awake-agency-next-js.vercel.app](https://awake-agency-next-js.vercel.app)
